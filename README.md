@@ -17,7 +17,7 @@ Traditional testing increases confidence by checking selected test cases, while 
 └── task-2-case-study/
     ├── python_impl.py
     ├── LeanImpl.lean
-    └── CASE_STUDY.md
+    ├── CASE_STUDY.md
     └── test_logic_python.py
 ```
 
@@ -68,7 +68,6 @@ The case study includes:
 
 * Lean 4
 * Python 3
-* Git & GitHub
 
 ---
 
