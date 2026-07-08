@@ -17,4 +17,4 @@ Every generated response satisfies the safety policy.
 
 From these assumptions, we formally prove that a valid prompt guarantees both successful generation and a safe output.
 
-The Python implementation uses unit tests to verify several representative scenarios, but it cannot guarantee that every possible execution path satisfies the specification. Lean 4, however, provides a mathematical proof that the property holds for all possible cases, eliminating logical correctness bugs that could be missed by traditional testing
+The Python implementation uses pytest to verify several representative scenarios, but it cannot guarantee that every possible execution path satisfies the specification. Lean 4, however, provides a mathematical proof that the property holds for all possible cases, eliminating logical correctness bugs that could be missed by traditional testing
